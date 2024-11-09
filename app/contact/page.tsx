@@ -1,6 +1,5 @@
 import { Heading1 } from "../components/headings";
-import { Images } from "../components/images";
-import { Para } from "../components/para";
+
 
 export default function Contact(){
     return(
