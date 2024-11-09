@@ -1,0 +1,266 @@
+/*basic CSS*/
+.p-5{
+    padding: 5%;
+}
+.mb-5 {
+    margin-bottom: 25rem;
+}
+/*End*/
+/*Column or row*/
+.col {
+    width: 50%;
+    padding: 5%;
+    float: left;
+}
+.col-4 {
+    width: 25%;
+    float: left;
+}
+.row {
+    background-color: #e7e5e4;
+}
+/*End*/
+/*Main Heading*/
+h1.heading {
+    font-size: 35px;
+    font-weight: 800;
+    color: #78716c;
+    font-family: monospace;
+    text-transform: capitalize;
+}
+/*End*/
+/*Main Paragraph*/
+p.para {
+    font-size: 18px;
+    font-family: system-ui;
+    letter-spacing: .2px;
+    line-height: 1.5rem;
+    color: #78716c;
+    text-align: justify;
+    padding-top: 2%;
+}
+/*End*/
+/*Main Image*/
+img.main_img {
+    width: 64%;
+    margin-left: 15%;
+}
+/*End*/
+/*Sub Heading*/
+h2.heading2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 700;
+    color: #78716c;
+}
+h2.heading3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #57534e;
+   
+}
+/*End*/
+/*sub Para*/
+p.subpara {
+    
+    font-size: 17px;
+    color: #78716ce8;
+}
+/*End*/
+/*Anchor*/
+a.anc {
+    background: #57534e;
+    padding: 5%;
+    color: #e7e5e4;
+}
+a.anc:hover {
+    background: #e7e5e4;
+    padding: 5%;
+    color: #57534e;
+    border: 3px solid #57534e;
+}
+/*End*/
+/*Card Style*/
+.card {
+    border: 2px solid #57534e;
+    border-radius: 50px;
+    margin: 2% 2%;
+    padding: 7%;
+    background: #e7e5e4;
+}
+.card h2 {
+    padding-bottom: 7%;
+}
+/*End*/
+/*Sub Div*/
+.sub_div {
+    padding: 5% 20%;
+    text-align: center;
+}
+/*End*/
+/*Form*/
+input.input_field, textarea.input_field {
+    border: 1px solid #78716ca6;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+button.btn {
+    width: 100%;
+    border: 2px solid #78716c;
+    padding: 2%;
+    border-radius: 10px;
+    font-weight: 600;
+}
+button.btn:hover {
+      border: 2px solid #78716c;
+      color: #e7e5e4;
+      background-color: #78716c;
+}
+/*End*/
+/*List*/
+ul.contact_li li {
+    color: #78716cd1;
+    font-size: 18px;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    font-family: cursive;
+}
+/*End*/
+/*Footer*/
+footer.footer {
+    padding: 3%;
+    text-align: center;
+    border-top: 4px solid #57534e;
+    margin-top: 6rem;
+    background-color: #e7e5e4;
+}
+footer.footer p {
+    font-weight: 600;
+    color: #57534e;
+    font-size: 20px;
+}
+/*End*/
+/*Media Query*/
+@media screen and (max-width:1024px){
+      /*Column*/
+      .col {
+        width: 50%;
+        padding: 5%;
+        float: left;
+    }
+    .col-4 {
+        width: 50%;
+        float: left;
+    }
+    /*End*/
+    /*Main Image*/
+    img.main_img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 13rem;
+    }
+    /*End*/
+    /*Sub Div*/
+.sub_div {
+    padding: 5% 10%;
+    text-align: center;
+}
+/*End*/
+/*Footer*/
+footer.footer {
+    padding: 3%;
+    text-align: center;
+    border-top: 4px solid #57534e;
+    margin-top: 20rem;
+    background-color: #e7e5e4;
+}
+/*End*/
+}
+/*End*/
+/*Media Query Tablet*/
+
+@media screen and (max-width:800px){
+    /*Column*/
+    .col {
+        width: 100%;
+        padding: 5%;
+        float: none;
+    }
+    .col-4 {
+        width: 50%;
+        float: left;
+    }
+    /*End*/
+    /*Main Image*/
+    img.main_img {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*End*/
+    /*Sub Div*/
+.sub_div {
+    padding: 5% 10%;
+    text-align: center;
+}
+/*End*/
+/*Basic Css*/
+.mb-5 {
+    margin-top: 0rem !important;
+    margin-bottom: -17rem;
+}
+/*End*/
+/*Footer*/
+footer.footer {
+    padding: 3%;
+    text-align: center;
+    border-top: 4px solid #57534e;
+    margin-top: 17rem;
+    background-color: #e7e5e4;
+}
+/*End*/
+    
+}
+/*Media Query Mobile*/
+
+@media screen and (max-width:500px){
+   /*Column*/
+    .col {
+        width: 100%;
+        padding: 5%;
+        float: none;
+    }
+    .col-4 {
+        width: 100%;
+        float: none;
+    }
+    /*End*/
+    /*Main Image*/
+    img.main_img {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*End*/
+    /*Basic CSS*/
+    .mb-5 {
+        margin-top: 0rem !important;
+        margin-bottom: 0rem;
+    }
+
+    /**/
+    /*Footer*/
+    footer.footer {
+        padding: 5%;
+        text-align: center;
+        border-top: 4px solid #57534e;
+        margin-top: 0rem;
+        background-color: #e7e5e4;
+    }
+    /*End*/
+}
+/*End*/
