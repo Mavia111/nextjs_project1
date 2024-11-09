@@ -14,7 +14,7 @@ export const Heading2 = (props: Ty) =>{
     );
 }
 
-export const Heading3 = (props Ty) =>{
+export const Heading3 = (props: Ty) =>{
     return(
         <h2 className="heading3 " >{props.name}</h2>
     );
